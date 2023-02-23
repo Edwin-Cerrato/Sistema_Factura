@@ -19,5 +19,30 @@ namespace Vista
         {
             Close();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == string.Empty)
+            {
+                Alerta.SetError(txtUsuario, "Ingrese un usuario");
+                txtUsuario.Clear();
+                txtUsuario.Focus();
+                return;
+            }
+            Alerta.Clear();
+
+            if (string.IsNullOrEmpty(txtContraseña.Text))
+            {
+                Alerta.SetError(txtContraseña, "Ingrese la contraseña");
+                txtContraseña.Clear();
+                txtContraseña.Focus();
+                return;
+            }
+            Alerta.Clear();
+
+
+
+
+        }
     }
 }
