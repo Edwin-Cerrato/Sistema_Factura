@@ -72,6 +72,7 @@
             // 
             this.txtContraseña.Location = new System.Drawing.Point(102, 88);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(163, 22);
             this.txtContraseña.TabIndex = 3;
             // 
@@ -114,6 +115,7 @@
             this.btnVerContraseña.Size = new System.Drawing.Size(30, 24);
             this.btnVerContraseña.TabIndex = 7;
             this.btnVerContraseña.UseVisualStyleBackColor = true;
+            this.btnVerContraseña.Click += new System.EventHandler(this.btnVerContraseña_Click);
             // 
             // pictureBox1
             // 

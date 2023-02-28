@@ -38,10 +38,31 @@ namespace Vista
                 txtContraseña.Focus();
                 return;
             }
-            Alerta.Clear();
+            //VALIDAR EN BASE DE DATOS
 
 
+            //MOSTRAR EL MENU
+            //instanciamos el formulario
+            //Nombre de formulario al que queremos ir,despues el nombre y por ultimo la propiedad
+            Menu menuformulario = new Menu();
+            //comando para ocultar el formulario anterior
+            this.Hide();
+            menuformulario.Show();
 
+        }
+
+        private void btnVerContraseña_Click(object sender, EventArgs e)
+        {
+            ////Mostrar Contraseña
+
+            //if (txtContraseña.PasswordChar == '*')
+            //{
+            //    bool v = txtContraseña.PasswordChar == '\0';
+            //}
+            //else
+            //{
+            //    bool v = txtContraseña.PasswordChar == '*';
+            //}
 
         }
     }
