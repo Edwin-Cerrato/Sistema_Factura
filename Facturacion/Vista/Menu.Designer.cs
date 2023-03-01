@@ -32,17 +32,17 @@
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.UsuarioToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.ClientesToolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.UsuarioToolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.ProductoToolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.ClientesToolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.VentasToolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
@@ -50,8 +50,8 @@
             this.toolStripTabItem2.Panel.SuspendLayout();
             this.toolStripEx2.SuspendLayout();
             this.ClientesToolStripTabItem3.Panel.SuspendLayout();
-            this.toolStripTabItem4.Panel.SuspendLayout();
             this.toolStripEx3.SuspendLayout();
+            this.toolStripTabItem4.Panel.SuspendLayout();
             this.toolStripEx4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,7 +103,7 @@
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "SEGURIDAD";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(74, 19);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(84, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "SEGURIDAD";
             // 
@@ -121,8 +121,20 @@
             this.toolStripEx1.Office12Mode = false;
             this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx1.Size = new System.Drawing.Size(128, 41);
+            this.toolStripEx1.Size = new System.Drawing.Size(97, 41);
             this.toolStripEx1.TabIndex = 0;
+            // 
+            // UsuarioToolStripButton1
+            // 
+            this.UsuarioToolStripButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsuarioToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("UsuarioToolStripButton1.Image")));
+            this.UsuarioToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UsuarioToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UsuarioToolStripButton1.Name = "UsuarioToolStripButton1";
+            this.UsuarioToolStripButton1.Size = new System.Drawing.Size(88, 24);
+            this.UsuarioToolStripButton1.Text = "USUARIOS";
+            this.UsuarioToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UsuarioToolStripButton1.Click += new System.EventHandler(this.UsuarioToolStripButton1_Click);
             // 
             // toolStripTabItem2
             // 
@@ -136,7 +148,7 @@
             this.toolStripTabItem2.Panel.TabIndex = 3;
             this.toolStripTabItem2.Panel.Text = "INVENTARIO";
             this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(76, 19);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(86, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "INVENTARIO";
             // 
@@ -157,6 +169,18 @@
             this.toolStripEx2.Size = new System.Drawing.Size(99, 41);
             this.toolStripEx2.TabIndex = 0;
             // 
+            // ProductoToolStripButton1
+            // 
+            this.ProductoToolStripButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductoToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("ProductoToolStripButton1.Image")));
+            this.ProductoToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.ProductoToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ProductoToolStripButton1.Name = "ProductoToolStripButton1";
+            this.ProductoToolStripButton1.Size = new System.Drawing.Size(90, 24);
+            this.ProductoToolStripButton1.Text = "PRODUCTOS";
+            this.ProductoToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ProductoToolStripButton1.Click += new System.EventHandler(this.ProductoToolStripButton1_Click);
+            // 
             // ClientesToolStripTabItem3
             // 
             this.ClientesToolStripTabItem3.Name = "ClientesToolStripTabItem3";
@@ -169,40 +193,9 @@
             this.ClientesToolStripTabItem3.Panel.TabIndex = 4;
             this.ClientesToolStripTabItem3.Panel.Text = "CLIENTES";
             this.ClientesToolStripTabItem3.Position = 2;
-            this.ClientesToolStripTabItem3.Size = new System.Drawing.Size(60, 19);
+            this.ClientesToolStripTabItem3.Size = new System.Drawing.Size(70, 30);
             this.ClientesToolStripTabItem3.Tag = "3";
             this.ClientesToolStripTabItem3.Text = "CLIENTES";
-            // 
-            // toolStripTabItem4
-            // 
-            this.toolStripTabItem4.Name = "toolStripTabItem4";
-            // 
-            // ribbonControlAdv1.ribbonPanel4
-            // 
-            this.toolStripTabItem4.Panel.Controls.Add(this.toolStripEx4);
-            this.toolStripTabItem4.Panel.Name = "ribbonPanel4";
-            this.toolStripTabItem4.Panel.ScrollPosition = 0;
-            this.toolStripTabItem4.Panel.TabIndex = 5;
-            this.toolStripTabItem4.Panel.Text = "VENTAS";
-            this.toolStripTabItem4.Position = 3;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(52, 19);
-            this.toolStripTabItem4.Tag = "4";
-            this.toolStripTabItem4.Text = "VENTAS";
-            // 
-            // toolStripTabItem5
-            // 
-            this.toolStripTabItem5.Name = "toolStripTabItem5";
-            // 
-            // ribbonControlAdv1.ribbonPanel5
-            // 
-            this.toolStripTabItem5.Panel.Name = "ribbonPanel5";
-            this.toolStripTabItem5.Panel.ScrollPosition = 0;
-            this.toolStripTabItem5.Panel.TabIndex = 6;
-            this.toolStripTabItem5.Panel.Text = "toolStripTabItem5";
-            this.toolStripTabItem5.Position = 4;
-            this.toolStripTabItem5.Size = new System.Drawing.Size(104, 19);
-            this.toolStripTabItem5.Tag = "5";
-            this.toolStripTabItem5.Text = "toolStripTabItem5";
             // 
             // toolStripEx3
             // 
@@ -221,6 +214,33 @@
             this.toolStripEx3.Size = new System.Drawing.Size(79, 41);
             this.toolStripEx3.TabIndex = 0;
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(70, 24);
+            this.toolStripButton1.Text = "CLIENTES";
+            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripTabItem4
+            // 
+            this.toolStripTabItem4.Name = "toolStripTabItem4";
+            // 
+            // ribbonControlAdv1.ribbonPanel4
+            // 
+            this.toolStripTabItem4.Panel.Controls.Add(this.toolStripEx4);
+            this.toolStripTabItem4.Panel.Name = "ribbonPanel4";
+            this.toolStripTabItem4.Panel.ScrollPosition = 0;
+            this.toolStripTabItem4.Panel.TabIndex = 5;
+            this.toolStripTabItem4.Panel.Text = "VENTAS";
+            this.toolStripTabItem4.Position = 3;
+            this.toolStripTabItem4.Size = new System.Drawing.Size(62, 30);
+            this.toolStripTabItem4.Tag = "4";
+            this.toolStripTabItem4.Text = "VENTAS";
+            // 
             // toolStripEx4
             // 
             this.toolStripEx4.Dock = System.Windows.Forms.DockStyle.None;
@@ -238,41 +258,6 @@
             this.toolStripEx4.Size = new System.Drawing.Size(62, 41);
             this.toolStripEx4.TabIndex = 0;
             // 
-            // UsuarioToolStripButton1
-            // 
-            this.UsuarioToolStripButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsuarioToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("UsuarioToolStripButton1.Image")));
-            this.UsuarioToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.UsuarioToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.UsuarioToolStripButton1.Name = "UsuarioToolStripButton1";
-            this.UsuarioToolStripButton1.Size = new System.Drawing.Size(88, 24);
-            this.UsuarioToolStripButton1.Text = "USUARIOS";
-            this.UsuarioToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.UsuarioToolStripButton1.Click += new System.EventHandler(this.UsuarioToolStripButton1_Click);
-            // 
-            // ProductoToolStripButton1
-            // 
-            this.ProductoToolStripButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductoToolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("ProductoToolStripButton1.Image")));
-            this.ProductoToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ProductoToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ProductoToolStripButton1.Name = "ProductoToolStripButton1";
-            this.ProductoToolStripButton1.Size = new System.Drawing.Size(90, 24);
-            this.ProductoToolStripButton1.Text = "PRODUCTOS";
-            this.ProductoToolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ProductoToolStripButton1.Click += new System.EventHandler(this.ProductoToolStripButton1_Click);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(70, 24);
-            this.toolStripButton1.Text = "CLIENTES";
-            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // VentasToolStripButton2
             // 
             this.VentasToolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -283,6 +268,21 @@
             this.VentasToolStripButton2.Size = new System.Drawing.Size(53, 24);
             this.VentasToolStripButton2.Text = "Ventas";
             this.VentasToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripTabItem5
+            // 
+            this.toolStripTabItem5.Name = "toolStripTabItem5";
+            // 
+            // ribbonControlAdv1.ribbonPanel5
+            // 
+            this.toolStripTabItem5.Panel.Name = "ribbonPanel5";
+            this.toolStripTabItem5.Panel.ScrollPosition = 0;
+            this.toolStripTabItem5.Panel.TabIndex = 6;
+            this.toolStripTabItem5.Panel.Text = "toolStripTabItem5";
+            this.toolStripTabItem5.Position = 4;
+            this.toolStripTabItem5.Size = new System.Drawing.Size(114, 30);
+            this.toolStripTabItem5.Tag = "5";
+            this.toolStripTabItem5.Text = "toolStripTabItem5";
             // 
             // Menu
             // 
@@ -306,10 +306,10 @@
             this.toolStripEx2.PerformLayout();
             this.ClientesToolStripTabItem3.Panel.ResumeLayout(false);
             this.ClientesToolStripTabItem3.Panel.PerformLayout();
-            this.toolStripTabItem4.Panel.ResumeLayout(false);
-            this.toolStripTabItem4.Panel.PerformLayout();
             this.toolStripEx3.ResumeLayout(false);
             this.toolStripEx3.PerformLayout();
+            this.toolStripTabItem4.Panel.ResumeLayout(false);
+            this.toolStripTabItem4.Panel.PerformLayout();
             this.toolStripEx4.ResumeLayout(false);
             this.toolStripEx4.PerformLayout();
             this.ResumeLayout(false);
